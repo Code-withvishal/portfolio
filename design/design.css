@@ -392,12 +392,15 @@ progress {
 .contact__sec {
   width: 50%;
 }
+
 .contact__sec:nth-of-type(1) {
   background-image: url("../images/men (2).jpeg");
-  background-size: cover;
+ background-position: 55% 50%;
+
+ 
   filter: brightness(1.6);
 }
-.contact__sec:nth-of-type(2) {
+.contact__sec:nth-of-type(1) {
   background-color: #000000;
   color: #FFFFFF;
 }
@@ -485,3 +488,66 @@ progress {
   color: #FFFFFF;
   text-align: center;
 }/*# sourceMappingURL=design.css.map */
+@media (max-width: 768px) {
+  .navbar__lists {
+    flex-direction: column;
+  }
+  .banner__left,
+  .banner__right {
+    height: 400px; /* Adjust height as needed */
+  }
+  .banner__profile {
+    width: 90%; /* Adjust width as needed */
+  }
+  .banner__content {
+    top: 30%; /* Adjust top position as needed */
+  }
+  .banner__title {
+    line-height: 36px; /* Adjust line height as needed */
+  }
+  .banner__description {
+    font-size: 18px; /* Adjust font size as needed */
+    letter-spacing: 4px; /* Adjust letter spacing as needed */
+  }
+  .link {
+    font-size: 16px; /* Adjust font size as needed */
+    margin-top: 15px; /* Adjust margin as needed */
+  }
+  .section {
+    padding: 20px; /* Adjust padding as needed */
+  }
+  .title {
+    font-size: 24px; /* Adjust font size as needed */
+  }
+  .card {
+    padding: 10px; /* Adjust padding as needed */
+  }
+  .card__title--l {
+    font-size: 18px; /* Adjust font size as needed */
+    margin: 25px 0 10px; /* Adjust margin as needed */
+  }
+  .card__description {
+    font-size: 12px; /* Adjust font size as needed */
+    margin-bottom: 10px; /* Adjust margin as needed */
+  }
+  .progress-bar-container {
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+  .portfolio {
+    height: 180px; /* Adjust height as needed */
+  }
+  .portfolio__title {
+    font-size: 14px; /* Adjust font size as needed */
+    margin-bottom: 3px; /* Adjust margin as needed */
+  }
+  .portfolio__desc {
+    font-size: 12px; /* Adjust font size as needed */
+    margin-bottom: 3px; /* Adjust margin as needed */
+  }
+  .contact__sec {
+    min-height: 250px; /* Adjust height as needed */
+  }
+  .footer__col {
+    min-height: 180px; /* Adjust height as needed */
+  }
+}
